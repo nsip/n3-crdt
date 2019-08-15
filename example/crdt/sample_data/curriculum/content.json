@@ -1,0 +1,1091 @@
+[{
+    "learning_area": "hsie",
+    "subject": "history",
+    "stage": "4",
+    "yrLvls": [7, 8],
+    "courses": [
+    {
+        "name": "The Ancient World - Overview",
+        "outcomes": [
+        {
+            "description": "Students briefly outline the theory that people moved out of Africa around 60 000 years ago and migrated to other parts of the world including Australia",
+            "id": ""
+        },
+        {
+            "description": "Students briefly outline the evidence for the emergence and establishment of ancient societies, including art, iconography, writing, tools and pottery",
+            "id": ""
+        },
+        {
+            "description": "Students briefly outline key features of ancient societies (farming, trade, social classes, religion, rule of law)",
+            "id": ""
+        }],
+        "lifeskills_outcomes":["identitified within Depth Studies"],
+        "inquiry_questions": [
+            "How do we know about the ancient past?",
+            "Why and where did the earliest societies develop?",
+            "What emerged as the defining characteristics of ancient societies?",            
+            "What have been the legacies of ancient societies?"
+        ],
+        "focus": "50 hours minimum teaching time",
+        "content_areas": [
+        {
+            "name": "Overview",
+            "investigations": [
+            {
+                "description": "According to the 'out of Africa' theory, about 60 000 years ago modern humans (Homo sapiens) began to leave that continent and gradually spread throughout the world. Some groups eventually settled down to grow crops and domesticate animals. In some regions, villages, towns and finally cities emerged and specialised occupations and trades developed. Organised activities and institutions developed, such as manufacture and trade, art and writing, religion and law, military and political structures. Some of these societies became the focal points of empires which shaped various parts of the ancient world.",
+                "ac": [""],
+                "examples": [
+                    ""
+                ]
+            }]
+        }]
+    },
+    {
+        "name": "Depth Study 1 - Investigating the Ancient Past",
+        "outcomes": [
+        {
+            "description": "describes the nature of history and archaeology and explains their contribution to an understanding of the past",
+            "id": "HT4-1"
+        },
+        {
+            "description": "identifies the meaning, purpose and context of historical sources",
+            "id": "HT4-5"
+        },
+        {
+            "description": "uses evidence from sources to support historical narratives and explanations",
+            "id": "HT4-6"
+        },
+        {
+            "description": "locates, selects and organises information from sources to develop an historical inquiry",
+            "id": "HT4-8"
+        },
+        {
+            "description": "uses a range of historical terms and concepts when communicating an understanding of the past",
+            "id": "HT4-9"
+        },
+        {
+            "description": "selects and uses appropriate oral, written, visual and digital forms to communicate about the past",
+            "id": "HT4-10"
+        }],
+        "lifeskills_outcomes":[
+            "HTLS-1",
+            "HTLS-7", 
+            "HTLS-8",
+            "HTLS-10",
+            "HTLS-11",
+            "HTLS-12",
+            "HTLS-13"
+        ],
+        "inquiry_questions": [
+            "How do we know about the ancient past?",
+            "Why and where did the earliest societies develop?",
+            "What emerged as the defining characteristics of ancient societies?",            
+            "What have been the legacies of ancient societies?"
+        ],
+        "focus": "no specific focus identified",
+        "content_areas": [
+        {
+            "name": "Investigating History",
+            "investigations": [
+            {
+                "description": "How historians and archaeologists investigate history, including excavation and archival research",
+                "ac": ["ACDSEH001"],
+                "examples": [
+                    "outline the main features of history and archaeology",
+                    "outline the role of historians and archaeologists",
+                    "define the terms and concepts relating to historical time, including BC/AD, BCE/CE",
+                    "describe and explain the different approaches to historical investigation taken by archaeologists and historians"
+                ]
+            }]
+        },
+        {
+            "name": "Historical Sources",
+            "investigations": [
+            {
+                "description": "The range of sources that can be used in an historical investigation, including archaeological and written sources",
+                "ac": ["ACDSEH029"],
+                "examples": [
+                    "list a range of sources used by archaeologists and historians in historical investigations"
+                ]
+            }]
+        },
+        {
+            "name": "Investigation Methods",
+            "investigations": [
+            {
+                "description": "The methods and sources used to investigate at least ONE historical controversy or mystery that has challenged historians or archaeologists, such as an analysis of unidentified human remains",
+                "ac": ["ACDSEH030"],
+                "examples": [
+                    "use the process of historical investigation to examine at least ONE historical controversy or mystery"
+                ]
+            }]
+        },
+        {
+            "name": "Ancient Australian sources",
+            "investigations": [
+            {
+                "description": "The nature of the sources for ancient Australia and what they reveal about Australia's past in the ancient period, such as the use of resources",
+                "ac": ["ACDSEH031"],
+                "examples": [
+                    "locate and describe a variety of sources for ancient Australia, eg animal and human remains, tools, middens, art and stories and sites related to the Dreaming",
+                    "investigate what these sources reveal about Australia's ancient past"
+                ]
+            }]
+        },
+        {
+            "name": "Importance of Conservation",
+            "investigations": [
+            {
+                "description": "The importance of conserving the remains of the ancient past, including the heritage of Aboriginal and Torres Strait Islander peoples",
+                "ac": ["ACDSEH148"],
+                "examples": [
+                    "identify ancient sites that have disappeared, or are threatened or have been protected and preserved, eg Akrotiri, Pompeii, the Pharos Lighthouse, Angkor Wat, Teotihuacan",
+                    "identify some methods of preserving and conserving archaeological and historical remains",
+                    "describe an Australian site which has preserved the heritage of Aboriginal and Torres Strait Islander peoples",
+                    "using a range of sources, including digital sources, eg UNESCO World Heritage criteria for ancient sites, choose ONE site to explain why it is important for a chosen site to be preserved and conserved"
+                ]
+            }]
+        },
+        {
+            "name": "Site Study",
+            "investigations": [
+            {
+                "description": "Site Study",
+                "ac": [""],
+                "examples": [
+                    "a museum visit",
+                    "an Aboriginal site (issues of access and permission need to be appropriate to the site selected)",
+                    "an archaeological site",
+                    "a local site of significance",
+                    "a heritage site",                                                                                
+                    "a virtual historical/archaeological site"
+                ]
+            }]
+        }]
+    },
+    {
+        "name": "Depth Study 2 - The Mediterranean World",
+        "outcomes": [
+        {
+            "description": "describes major periods of historical time and sequences events, people and societies from the past",
+            "id": "HT4-2"
+        },
+        {
+            "description": "describes and assesses the motives and actions of past individuals and groups in the context of past societies",
+            "id": "HT4-3"
+        },
+        {
+            "description": "uses evidence from sources to support historical narratives and explanations",
+            "id": "HT4-6"
+        },
+        {
+            "description": "uses a range of historical terms and concepts when communicating an understanding of the past",
+            "id": "HT4-9"
+        },
+        {
+            "description": "selects and uses appropriate oral, written, visual and digital forms to communicate about the past",
+            "id": "HT4-10"
+        }],
+        "lifeskills_outcomes":[
+            "HTLS-2",
+            "HTLS-3",
+            "HTLS-4",
+            "HTLS-5",
+            "HTLS-8",
+            "HTLS-11",
+            "HTLS-12",
+            "HTLS-13"
+        ],
+        "inquiry_questions": [
+            "How do we know about the ancient past?",
+            "Why and where did the earliest societies develop?",
+            "What emerged as the defining characteristics of ancient societies?",            
+            "What have been the legacies of ancient societies?"
+        ],
+        "focus": "Students investigate ONE of the following ancient Mediterranean societies in depth, using a range of archaeological and written sources: 2a Egypt OR 2b Greece OR 2c Rome",
+        "content_areas": [
+        {
+            "name": "Physical features of ancient societies",
+            "investigations": [
+            {
+                "description": "The physical features of the ancient society and how they influenced the civilisation that developed there",
+                "ac": [
+                    "ACDSEH002",
+                    "ACDSEH003",
+                    "ACDSEH004"
+                ],
+                "examples": [
+                    "describe the geographical setting and natural features of the ancient society",
+                    "explain how the geographical setting and natural features influenced the development of the society"
+                ]
+            }]
+        },
+        {
+            "name": "Key groups in ancient societies",
+            "investigations": [
+            {
+                "description": "Roles of key groups in the ancient society, including the influence of law and religion",
+                "ac": [
+                    "ACDSEH032",
+                    "ACDSEH035",
+                    "ACDSEH038"
+                ],
+                "examples": [
+                    "outline how the ancient society was organised and governed including the roles of law and religion",
+                    "describe the roles of appropriate key groups in the ancient society, eg the ruling elite, the nobility, citizens (Greece and Rome), bureaucracy, women and slaves",
+                    "describe the everyday life of men, women and children in the ancient society"
+                ]
+            }]
+        },
+        {
+            "name": "Significant beliefs, values and practices",
+            "investigations": [
+            {
+                "description": "The significant beliefs, values and practices of the ancient society, with a particular emphasis on ONE of the following areas: warfare, or death and funerary customs",
+                "ac": [
+                    "ACDSEH033",
+                    "ACDSEH036",
+                    "ACDSEH039"
+                ],
+                "examples": [
+                    "explain how the beliefs and values of the ancient society are evident in practices related to at least ONE of the following: warfare, death and funerary customs"
+                ]
+            }]
+        },
+        {
+            "name": "Contacts and conflicts",
+            "investigations": [
+            {
+                "description": "Contacts and conflicts within and/or with other societies, resulting in developments such as the conquest of other lands, the expansion of trade and peace treaties",
+                "ac": [
+                    "ACDSEH034",
+                    "ACDSEH037",
+                    "ACDSEH040"
+                ],
+                "examples": [
+                    "identify contacts and conflicts of peoples within the ancient world",
+                    "describe significant contacts with other societies through trade, warfare and conquest",
+                    "explain the consequences of these contacts with other societies, eg developments in trade, the spread of religious beliefs, the emergence of empires and diplomacy",
+                    "explain the legacy of the chosen ancient society"
+                ]
+            }]
+        },
+        {
+            "name": "Significant individuals",
+            "investigations": [
+            {
+                "description": "The role of a significant individual in the ancient Mediterranean world such as Hatshepsut, Rameses II, Pericles, Julius Caesar or Augustus",
+                "ac": [
+                    "ACDSEH129",
+                    "ACDSEH130",
+                    "ACDSEH131"
+                ],
+                "examples": [
+                    "using a range of sources, including digital sources, investigate the role of a significant individual in the ancient Mediterranean world",
+                    "assess the role and significance of the individual chosen"
+                ]
+            }]
+        },
+        {
+            "name": "Site Study",
+            "investigations": [
+            {
+                "description": "Site Study",
+                "ac": [""],
+                "examples": [
+                    "a museum visit",
+                    "a virtual historical site",
+                    "a virtual archaeological site"
+                ]
+            }]
+        }]
+    },
+    {
+        "name": "Depth Study 3 - The Asian World",
+        "outcomes": [
+        {
+            "description": "describes major periods of historical time and sequences events, people and societies from the past",
+            "id": "HT4-2"
+        },
+        {
+            "description": "describes and assesses the motives and actions of past individuals and groups in the context of past societies",
+            "id": "HT4-3"
+        },
+        {
+            "description": "uses evidence from sources to support historical narratives and explanations",
+            "id": "HT4-6"
+        },
+        {
+            "description": "uses a range of historical terms and concepts when communicating an understanding of the past",
+            "id": "HT4-9"
+        },
+        {
+            "description": "selects and uses appropriate oral, written, visual and digital forms to communicate about the past",
+            "id": "HT4-10"
+        }],
+        "lifeskills_outcomes":[
+            "HTLS-2",
+            "HTLS-3",
+            "HTLS-4",
+            "HTLS-5",
+            "HTLS-8",
+            "HTLS-11",
+            "HTLS-12",
+            "HTLS-13"
+        ],
+        "inquiry_questions": [
+            "How do we know about the ancient past?",
+            "Why and where did the earliest societies develop?",
+            "What emerged as the defining characteristics of ancient societies?",            
+            "What have been the legacies of ancient societies?"
+        ],
+        "focus": "Students investigate ONE of the following of these ancient Asian societies in depth: 3a India OR 3b China",
+        "content_areas": [
+        {
+            "name": "Influences of physical features",
+            "investigations": [
+            {
+                "description": "The physical features of the ancient society and how they influenced the civilisation that developed there",
+                "ac": [
+                    "ACDSEH006",
+                    "ACDSEH005"
+                ],
+                "examples": [
+                    "describe the geographical setting and natural features of the ancient society",
+                    "explain how the geographical setting and natural features influenced the development of the ancient society"
+                ]
+            }]
+        },
+        {
+            "name": "Roles of key groups",
+            "investigations": [
+            {
+                "description": "Roles of key groups in the ancient society in this period (such as kings, emperors, priests, merchants, craftsmen, scholars, peasants, women), including the influence of law and religion",
+                "ac": [
+                    "ACDSEH044",
+                    "ACDSEH041"
+                ],
+                "examples": [
+                    "outline the main features of the social structures and government of the ancient society, including the role of law and religion",
+                    "describe the roles of key groups in the society",
+                    "describe the everyday life of men, women and children in the society"
+                ]
+            }]
+        },
+        {
+            "name": "Significant beliefs, values and practices",
+            "investigations": [
+            {
+                "description": "The significant beliefs, values and practices of the ancient society, with a particular emphasis on at least ONE of the following areas: warfare, or death and funerary customs",
+                "ac": [
+                    "ACDSEH045",
+                    "ACDSEH042"
+                ],
+                "examples": [
+                    "explain how the beliefs and values of the ancient society are evident in practices related to ONE of the following: warfare, death and funerary customs"
+                ]
+            }]
+        },
+        {
+            "name": "Contacts and conflicts",
+            "investigations": [
+            {
+                "description": "Contacts and conflicts within and/or with other societies, resulting in developments such as the expansion of trade, the rise of empires and the spread of philosophies and beliefs",
+                "ac": [
+                    "ACDSEH046",
+                    "ACDSEH043"
+                ],
+                "examples": [
+                    "identify contacts and conflicts of peoples within the ancient Asian world",
+                    "outline significant contacts with other societies, eg trade, warfare and conquest",
+                    "explain the consequences of these contacts with other societies, eg developments in trade, the spread of philosophies and religious beliefs and the emergence of empires",
+                    "explain the legacy of the chosen Asian society"
+                ]
+            }]
+        },
+        {
+            "name": "Significant individuals",
+            "investigations": [
+            {
+                "description": "The role of a significant individual in the ancient Asian world, for example Chandragupta Maurya, Ashoka, Confucius or Qin Shi Huang Di",
+                "ac": [
+                    "ACDSEH133", 
+                    "ACDSEH132"
+                ],
+                "examples": [
+                    "using a range of sources, including ICT, investigate the role of a significant individual in the ancient Asian world",
+                    "assess the role and importance of the individual chosen"
+                ]
+            }]
+        },
+        {
+            "name": "Site Study",
+            "investigations": [
+            {
+                "description": "Site Study",
+                "ac": [""],
+                "examples": [
+                    "a museum visit",
+                    "a virtual historical site",
+                    "a virtual archaeological site"
+                ]
+            }]
+        }]
+    },
+    {
+        "name": "The Ancient to the Modern World - Overview",
+        "outcomes": [
+        {
+            "description": "Students briefly outline the transformation of the Roman world and the spread of Christianity and Islam",
+            "id": ""
+        },
+        {
+            "description": "Students briefly outline key features of the medieval world (feudalism, trade routes, voyages of discovery, religion, contact and conflict)",
+            "id": ""
+        },
+        {
+            "description": "Students briefly outline the emergence of ideas about the world and the place of people in it by the end of the period (such as the Renaissance, the Scientific Revolution and the Enlightenment)",
+            "id": ""
+        }],
+        "lifeskills_outcomes":[""],
+        "inquiry_questions": [
+            "How did societies change from the end of the ancient period to the beginning of the modern age?",
+            "What key beliefs and values emerged and how did they influence societies?",
+            "What were the causes and effects of contact between societies in this period?",
+            "Which significant people, groups and ideas from this period have influenced the world today?"
+        ],
+        "focus": "50 hours minimum teaching time",
+        "content_areas": [
+        {
+            "name": "Overview",
+            "investigations": [
+            {
+                "description": "The later Roman empire was transformed by becoming Christian and dividing into an eastern and a western empire. Both empires were weakened by a series of invasions. After the collapse of the Roman empire in the west, the Christian church provided the cultural foundation for the emergence of European medieval society. One of the important features of this society was feudalism. Islam, meanwhile, had spread from the Arabian Peninsula and by the mid-seventh century dominated North Africa and the Middle East. In the late eleventh century Christianity and Islam clashed in a series of wars known as the Crusades. The Christian goal of occupying Muslim Jerusalem and the Holy Land ultimately failed. In the mid-fifteenth century the Islamic Ottomans finally captured Constantinople, the capital of the eastern Roman empire. This victory consolidated their empire which then commanded the eastern Mediterranean. In the meantime, western European navigators discovered new trade routes to Asia by sailing around Africa or heading west, across the Atlantic, to encounter the Americas. These voyages opened up a new understanding of the world at a time when western Europe was embracing the learning of ancient Greece and Rome. This expansion of knowledge, experience and confidence is now known as the Renaissance. In Europe it heralded the Scientific Revolution and the Enlightenment which created the modern world. ",
+                "ac": [""],
+                "examples": [""]
+            }]
+        }]
+    },
+    {
+        "name": "Depth Study 4 - The Western and Islamic World",
+        "outcomes": [
+        {
+            "description": "describes and assesses the motives and actions of past individuals and groups in the context of past societies",
+            "id": "HT4-3"
+        },
+        {
+            "description": "identifies the meaning, purpose and context of historical sources",
+            "id": "HT4-5"
+        },
+        {
+            "description": "identifies and describes different contexts, perspectives and interpretations of the past",
+            "id": "HT4-7"
+        },
+        {
+            "description": "locates, selects and organises information from sources to develop an historical inquiry",
+            "id": "HT4-8"
+        },
+        {
+            "description": "uses a range of historical terms and concepts when communicating an understanding of the past",
+            "id": "HT4-9"
+        },
+        {
+            "description": "selects and uses appropriate oral, written, visual and digital forms to communicate about the past",
+            "id": "HT4-10"
+        }],
+        "lifeskills_outcomes":[
+            "HTLS-3",
+            "HTLS-4",
+            "HTLS-5",
+            "HTLS-7",
+            "HTLS-9",
+            "HTLS-10",
+            "HTLS-11",
+            "HTLS-12",
+            "HTLS-13"
+        ],
+        "inquiry_questions": [
+            "How did societies change from the end of the ancient period to the beginning of the modern age?",
+            "What key beliefs and values emerged and how did they influence societies?",
+            "What were the causes and effects of contact between societies in this period?",
+            "Which significant people, groups and ideas from this period have influenced the world today?"
+        ],
+        "focus": "Students investigate ONE of the following depth studies topics: 4a The Vikings OR 4b Medieval Europe OR 4c The Ottoman Empire OR 4d Renaissance Italy",
+        "content_areas": [
+        {
+            "name": "Topic 4a: The Vikings (c. AD 790 – c. 1066)",
+            "investigations": [
+            {
+                "description": "The way of life in Viking society (social, cultural, economic and political features) and the roles and relationships of different groups in society",
+                "ac": ["ACDSEH007"],
+                "examples": [
+                    "locate the Viking homelands",
+                    "identify the geographical features that helped shape Viking society and history",
+                    "using a range of sources, eg the Viking sagas, outline key social, cultural, economic and political features of Viking society",
+                    "describe the everyday life of men, women and children in Viking society",
+                    "discuss the role of the Norse gods in Viking society"
+                ]
+            },
+            {
+                "description": "Significant developments and/or cultural achievements that led to Viking expansion, including weapons and shipbuilding, and the extent of their trade",
+                "ac": ["ACDSEH047"],
+                "examples": [
+                    "identify the extent of Viking exploration and trade",
+                    "identify the regions conquered and/or settled by the Vikings",
+                    "explain how and why Viking expansion occurred, including developments in weaponry and shipbuilding technologies",
+                    "discuss the theory that Vikings discovered America"
+                ]
+            },
+            {
+                "description": "Viking conquests and relationships with subject peoples, including the perspectives of monks, changes in the way of life of the English, and the Norman invasion",
+                "ac": ["ACDSEH048"],
+                "examples": [
+                    "explain and assess the impact of the Vikings on subject peoples in England and northern Europe, including the Danelaw",
+                    "discuss the significance of the Norwegian (Viking) and Norman invasions of England in 1066",
+                    "outline what sources reveal about different perspectives on the Vikings, for example those of English monks"
+                ]
+            },
+            {
+                "description": "The role of a significant individual in the expansion of Viking settlement and influence",
+                "ac": ["ACDSEH049"],
+                "examples": [
+                    "investigate and assess the role of significant individuals involved in the expansion of Viking settlement and influence, eg Erik the Red or Leif Ericson",
+                    "use sources to identify different perspectives on the chosen individual",
+                    "discuss how the Vikings have influenced the world today"
+                ]
+            }]
+        },
+        {
+            "name": "Topic 4b: Medieval Europe (c. AD 590 – c. 1500)",
+            "investigations": [
+            {
+                "description": "The way of life in Medieval Europe (social, cultural, economic and political features) and the roles and relationships of different groups in society",
+                "ac": ["ACDSEH008"],
+                "examples": [
+                    "identify the extent and key sites of Medieval Europe",
+                    "describe everyday life of men, women and children in Medieval European society",
+                    "outline key cultural, economic and political features of Medieval European society",
+                    "identify the roles and relationships of key groups in Medieval European society, using a range of sources"
+                ]
+            },
+            {
+                "description": "Significant developments and/or cultural achievements, such as changing relations between Islam and the West (including the Crusades), architecture, medieval manuscripts and music",
+                "ac": ["ACDSEH050"],
+                "examples": [
+                    "identify and describe significant developments and/or cultural achievements of Medieval Europe in at least ONE of the following areas: architecture, art, medieval manuscripts, literature and music",
+                    "explain the changing relations between Islam and the West during the medieval era, including the Crusades",
+                    "using a range of sources, outline what is revealed about different perspectives on the Crusades"
+                ]
+            },
+            {
+                "description": "Continuity and change in society in ONE of the following areas: crime and punishment; military and defence systems; towns, cities and commerce",
+                "ac": ["ACDSEH051"],
+                "examples": [
+                    "outline the main features of at least ONE of the following:Ethical understanding crime and punishment - military and defence systems - towns, cities and commerce",
+                    "describe the ways your chosen topic changed or remained the same"
+                ]
+            },
+            {
+                "description": "The dominance of the Catholic Church",
+                "ac": ["ACDSEH052"],
+                "examples": [
+                    "identify ways in which the Catholic Church influenced life in Medieval Europe"
+                ]
+            },
+            {
+                "description": "The role of significant individuals",
+                "ac": ["ACDSEH052"],
+                "examples": [
+                    "using a range of sources, investigate and assess the role of significant medieval individuals, eg Charlemagne, Eleanor of Aquitaine, Saladin, William Wallace or Joan of Arc",
+                    "use sources to identify different perspectives on the chosen individuals",
+                    "discuss how Medieval Europe has influenced the world today"
+                ]
+            }]
+        },
+        {
+            "name": "Topic 4c: The Ottoman Empire (c. AD 1299 – c. 1683)",
+            "investigations": [
+            {
+                "description": "The way of life in the Ottoman-Empire (social, cultural, economic and political features) and the roles and relationships of different groups in society",
+                "ac": ["ACDSEH009"],
+                "examples": [
+                    "identify key sites and the extent of the Ottoman Empire during this period",
+                    "describe the everyday life of men, women and children in the Ottoman Empire",
+                    "outline key cultural, economic and political features of the Ottoman Empire"
+                ]
+            },
+            {
+                "description": "Significant developments and/or cultural achievements that reflect the power and influence of the Ottoman Empire, such as the fall of Constantinople in AD 1453, art and architecture",
+                "ac": ["ACDSEH053"],
+                "examples": [
+                    "identify and describe significant developments and/or cultural achievements of the Ottoman Empire in art and architecture",
+                    "sequence and explain significant developments in extending the strength and influence of the Ottoman Empire in the Middle East and Europe, eg the Battle of Kosovo, the fall of Constantinople, and the Sieges of Rhodes and Vienna"
+                ]
+            },
+            {
+                "description": "Relationships with subject peoples, including the policy of religious tolerance",
+                "ac": ["ACDSEH054"],
+                "examples": [
+                    "explain how the Ottomans maintained relationships with subject peoples, both Muslims and non-Muslims, including the policy of religious tolerance",
+                    "using a range of sources, outline what these sources reveal about different perspectives on the Ottoman Empire"
+                ]
+            },
+            {
+                "description": "The role of significant individuals in maintaining the strength and influence of the Ottoman Empire",
+                "ac": ["ACDSEH055"],
+                "examples": [
+                    "investigate and assess the importance of significant individuals, eg Selim I, or Suleiman the Magnificent, in extending and maintaining the strength and influence of the Ottoman Empire",
+                    "use sources to identify different perspectives on the chosen individuals",
+                    "discuss how the Ottoman Empire has influenced the world today"
+                ]
+            }]
+        },
+        {
+            "name": "Topic 4d: Renaissance Italy (c. AD 1400 – c. 1600)",
+            "investigations": [
+            {
+                "description": "The way of life in Renaissance Italy (social, cultural, economic and political features) and the roles and relationships of different groups in society",
+                "ac": ["ACDSEH010"],
+                "examples": [
+                    "explain why this period is known as the Renaissance",
+                    "identify on a map the city-states of Italy during this period",
+                    "describe the everyday life of men, women and children in Renaissance Italy",
+                    "describe key economic and political features of Renaissance Italy"
+                ]
+            },
+            {
+                "description": "Significant developments and/or cultural achievements that reflect the concentration of wealth and power in the city-states",
+                "ac": ["ACDSEH056"],
+                "examples": [
+                    "using a range of sources, investigate and explain the importance of at least ONE of the following achievements of Renaissance Italy: painting, sculpture, architecture, science and technology, literature and humanist thinking",
+                    "describe how the patronage of wealthy families encouraged these developments and/or cultural achievements"
+                ]
+            },
+            {
+                "description": "Relationships between rulers and ruled in ONE Italian city-state",
+                "ac": ["ACDSEH057"],
+                "examples": [
+                    "discuss the relationships between rulers and ruled in ONE Italian city-state, eg Pisa, Florence, Naples, Venice or Rome"
+                ]
+            },
+            {
+                "description": "The role and achievements of significant individuals",
+                "ac": ["ACDSEH058"],
+                "examples": [
+                    "investigate and assess the importance of significant individuals, eg Cesare Borgia, Lucrezia Borgia, Caterina Sforza, Leonardo da Vinci, Michelangelo, Artemisia, Niccolo Machiavelli, Galileo Galilei",
+                    "use sources to identify different perspectives on the chosen individuals"
+                ]
+            },
+            {
+                "description": "The spread of Renaissance culture to the rest of Europe and its legacy",
+                "ac": ["ACDSEH059"],
+                "examples": [
+                    "explain how ideas from Renaissance Italy spread to the rest of Europe and outline its legacy"
+                ]
+            }]
+        },
+        {
+            "name": "Site Study",
+            "investigations": [
+            {
+                "description": "Site Study",
+                "ac": [""],
+                "examples": [
+                    "a museum visit",
+                    "a virtual historical site",
+                    "a virtual archaeological site"
+                ]
+            }]
+        }]
+    },
+    {
+        "name": "Depth Study 5 - The Asia-Pacific World",
+        "outcomes": [
+        {
+            "description": "describes major periods of historical time and sequences events, people and societies from the past",
+            "id": "HT4-2"
+        },
+        {
+            "description": "describes and explains the causes and effects of events and developments of past societies over time",
+            "id": "HT4-4"
+        },
+        {
+            "description": "uses evidence from sources to support historical narratives and explanations",
+            "id": "HT4-6"
+        },
+        {
+            "description": "identifies and describes different contexts, perspectives and interpretations of the past",
+            "id": "HT4-7"
+        },
+        {
+            "description": "uses a range of historical terms and concepts when communicating an understanding of the past",
+            "id": "HT4-9"
+        },
+        {
+            "description": "selects and uses appropriate oral, written, visual and digital forms to communicate about the past",
+            "id": "HT4-10"
+        }],
+        "lifeskills_outcomes":[
+            "HTLS-2",
+            "HTLS-6",
+            "HTLS-8",
+            "HTLS-9",
+            "HTLS-11",
+            "HTLS-12",
+            "HTLS-13"
+        ],
+        "inquiry_questions": [
+            "How did societies change from the end of the ancient period to the beginning of the modern age?",
+            "What key beliefs and values emerged and how did they influence societies?",
+            "What were the causes and effects of contact between societies in this period?",
+            "Which significant people, groups and ideas from this period have influenced the world today?"
+        ],
+        "focus": "Students investigate ONE of these Asia-Pacific societies in depth: 5a Angkor/Khmer Empire OR 5b Japan under the Shoguns OR 5c The Polynesian expansion across the Pacific",
+        "content_areas": [
+        {
+            "name": "Topic 5a: Angkor/Khmer Empire (c. AD 802 – c. 1431)",
+            "investigations": [
+            {
+                "description": "The way of life in the Khmer Empire, including social, cultural, economic and political features (including the role of the king)",
+                "ac": ["ACDSEH011"],
+                "examples": [
+                    "identify key sites and the extent of the Angkor/Khmer Empire during this period",
+                    "describe everyday life in the Angkor/Khmer Empire",
+                    "outline key cultural, economic and political features of life in the Angkor/Khmer Empire",                    
+                    "identify the roles and relationships of key groups in the Angkor/Khmer Empire"
+                ]
+            },
+            {
+                "description": "The reasons for Angkor's rise to prominence, including wealth from trade and agriculture",
+                "ac": ["ACDSEH060"],
+                "examples": [
+                    "describe the status and power of the king",
+                    "explain how the wealth from trade and agriculture contributed to Angkor's rise to prominence"
+                ]
+            },
+            {
+                "description": "The cultural achievements of the Khmer civilisation, including its system of water management and the building of the temples of Angkor",
+                "ac": ["ACDSEH061"],
+                "examples": [
+                    "using a range of sources and the site of Angkor as an historical source, describe what it reveals about Angkor/Khmer life and culture. This could include: the construction of the temples, the system of water management, religion, agriculture"
+                ]
+            },
+            {
+                "description": "Theories of the decline of Angkor, such as the overuse of water resources, neglect of public works as a result of ongoing war, and the effects of climate change",
+                "ac": ["ACDSEH062"],
+                "examples": [
+                    "outline theories about the decline of Angkor and assess which factors were most significant",
+                    "explain the significance of Angkor today"
+                ]
+            }]
+        },
+        {
+            "name": "Topic 5b: Japan under the Shoguns (c. AD 794 – 1867)",
+            "investigations": [
+            {
+                "description": "The way of life in Shogunate Japan, including social, cultural, economic and political features (including the feudal system and the increasing power of the shogun)",
+                "ac": ["ACDSEH012"],
+                "examples": [
+                    "sequence the Nara and Heian periods and the Kamakura, Muromachi and Tokugawa shogunates",
+                    "identify key places in Japan during this period",
+                    "outline key cultural, economic and political features of this society, including the increasing power of the shogun",
+                    "describe the everyday life of men, women and children in Japan under the shoguns",
+                    "identify the roles and relationships of key groups in this society using sources"
+                ]
+            },
+            {
+                "description": "The role of the Tokugawa Shogunate in reimposing a feudal system (based on daimyo and samurai) and the increasing control of the shogun over foreign trade",
+                "ac": ["ACDSEH063"],
+                "examples": [
+                    "outline how the Tokugawa Shogunate took control of Japan by AD 1603",
+                    "describe how the Tokugawa Shoguns revived the feudal system in Japan",
+                    "explain how foreign trade was controlled by the Tokugawa Shoguns"
+                ]
+            },
+            {
+                "description": "The use of environmental resources in Shogunate Japan and the forestry and land use policies of the Tokugawa Shogunate",
+                "ac": ["ACDSEH064"],
+                "examples": [
+                    "describe how the Japanese used land and forests as resources",
+                    "outline the Tokugawa Shogunate's policies on forestry and land use"
+                ]
+            },
+            {
+                "description": "Theories about the decline of the Shogunate, including modernisation and westernisation, through the adoption of Western arms and technology",
+                "ac": ["ACDSEH065"],
+                "examples": [
+                    "explain why the Tokugawa Shoguns isolated Japan from the rest of the world from AD 1639",
+                    "identify examples of modernisation and westernisation in Japan in this period and explain their impact",
+                    "assess the importance of Western influence on the decline of the Shogunate",
+                    "explain how the Shogunate have influenced modern Japan"
+                ]
+            }]
+        },
+        {
+            "name": "Topic 5c: The Polynesian expansion across the Pacific (c. AD 700 – 1756)",
+            "investigations": [
+            {
+                "description": "Theories about the origin and spread of Polynesian settlers throughout the Pacific",
+                "ac": ["ACDSEH013"],
+                "examples": [
+                    "identify the geographic extent and natural features of Polynesia",
+                    "outline theories about the origin and spread of Polynesian settlers throughout the Pacific",
+                    "locate the Pacific regions settled by the Polynesians",
+                    "describe the different societies of Polynesia"
+                ]
+            },
+            {
+                "description": "The way Polynesian societies used environmental resources (sustainably and unsustainably), including the extinction of the moa in New Zealand, the use of religious/supernatural threats to conserve resources, and the exploitation of Easter Island's palm trees",
+                "ac": ["ACDSEH068"],
+                "examples": [
+                    "describe key environmental resources of Polynesian societies",
+                    "assess Polynesian uses of environmental resources in this period, including: the extinction of the moa in New Zealand, the use of religious/supernatural threats to conserve resources, the exploitation of Easter Island's palm trees"
+                ]
+            },
+            {
+                "description": "The way of life in ONE Polynesian society, including social, cultural, economic and political features, such as the role of ariki and related tribal roles in Maori and in Rapa Nui society",
+                "ac": ["ACDSEH066"],
+                "examples": [
+                    "describe everyday life in ONE Polynesian society during this period",
+                    "describe key political features of ONE Polynesian society",
+                    "explain key economic activities of ONE Polynesian society"
+                ]
+            },
+            {
+                "description": "The cultural achievements of ONE Polynesian society, such as the Ta moko, the haka and hangi in Maori society and/or the moai constructed on Easter Island",
+                "ac": ["ACDSEH067"],
+                "examples": [
+                    "using a range of sources, describe the cultural achievements of ONE Polynesian society, such as the role of the ariki and related tribal roles in Maori and Rapa Nui society (Easter Island)"
+                ]
+            }]
+        }]
+    },    
+    {
+        "name": "Depth Study 6 - Expanding Contacts",
+        "outcomes": [
+        {
+            "description": "describes major periods of historical time and sequences events, people and societies from the past",
+            "id": "HT4-2"
+        },
+        {
+            "description": "describes and assesses the motives and actions of past individuals and groups in the context of past societies",
+            "id": "HT4-3"
+        },
+        {
+            "description": "describes and explains the causes and effects of events and developments of past societies over time",
+            "id": "HT4-4"
+        },
+        {
+            "description": "uses evidence from sources to support historical narratives and explanations",
+            "id": "HT4-6"
+        },
+        {
+            "description": "identifies and describes different contexts, perspectives and interpretations of the past",
+            "id": "HT4-7"
+        },
+        {
+            "description": "selects and uses appropriate oral, written, visual and digital forms to communicate about the past",
+            "id": "HT4-10"
+        }],
+        "inquiry_questions": [
+            "How did societies change from the end of the ancient period to the beginning of the modern age?",
+            "What key beliefs and values emerged and how did they influence societies?",
+            "What were the causes and effects of contact between societies in this period?",
+            "Which significant people, groups and ideas from this period have influenced the world today?"
+        ],
+        "lifeskills_outcomes":[
+            "HTLS-2",
+            "HTLS-3",
+            "HTLS-4",
+            "HTLS-5",
+            "HTLS-6",
+            "HTLS-8",
+            "HTLS-9",
+            "HTLS-13"
+        ],        
+        "focus": "Students investigate ONE of the following historical developments in depth to explore the interaction of societies in this period: 6a Mongol Expansion OR 6b The Black Death in Asia, Europe and Africa OR 6c The Spanish Conquest of the Americas OR 6d Aboriginal and Indigenous Peoples, Colonisation and Contact History",
+        "content_areas": [
+        {
+            "name": "Topic 6a: Mongol Expansion (c. AD 1206 – c. 1368)",
+            "investigations": [
+            {
+                "description": "The nomadic lifestyle of the Mongols and the rise of Temujin (Genghis Khan)",
+                "ac": ["ACDSEH014"],
+                "examples": [
+                    "identify the extent and geographical features of the Mongol homeland",
+                    "describe the features of Mongol nomadic life",
+                    "describe key political and economic features of Mongol society",
+                    "describe the life and impact of Temujin (Genghis Khan) on Asia and the Middle East"
+                ]
+            },
+            {
+                "description": "The organisation of the Mongol army under Genghis Khan and the treatment of conquered peoples, such as the codification of laws and exemption of teachers, lawyers and artists from taxes",
+                "ac": ["ACDSEH077"],
+                "examples": [
+                    "outline the organisation of Genghis Khan's Mongol army",
+                    "describe the Mongol policies used in governing their empire including laws and taxes",
+                    "using a range of sources, describe how the Mongols treated conquered peoples"
+                ]
+            },
+            {
+                "description": "The extent of the Mongol expansion as one of the largest land empires in history, including life in China before, during and after the Mongol conquest",
+                "ac": ["ACDSEH078"],
+                "examples": [
+                    "locate the extent of the Mongol conquests and expansion across Asia and Europe",
+                    "describe the impact of Mongol rule on Chinese social structure",
+                    "explain the cultural and religious consequences of Mongol rule in China",
+                    "explain how and why life in China changed under Mongol rule"
+                ]
+            },
+            {
+                "description": "The consequences of the Mongol expansion, including contributions to European knowledge and trade routes",
+                "ac": ["ACDSEH079"],
+                "examples": [
+                    "using a range of sources describe and assess the significance of Mongol expansion, including contributions to European knowledge and the increase in commerce with Asia and Europe",
+                    "assess the reign and contributions of Kublai Khan to the Chinese empire and the wider world"
+                ]
+            }]
+        },
+        {
+            "name": "Topic 6b: The Black Death in Asia, Europe and Africa (14th-century plague)",
+            "investigations": [
+            {
+                "description": "Living conditions and religious beliefs in the 14th century, including life expectancy, medical knowledge and beliefs about the power of God",
+                "ac": ["ACDSEH015"],
+                "examples": [
+                    "locate the extent of human settlements in 14th-century Asia, Europe and Africa",
+                    "describe the everyday life of men, women and children in the 14th century and life expectancy at this time",
+                    "describe what doctors understood about diseases and their treatment in this period",
+                    "outline what European people believed about religion and the power of God in this period"
+                ]
+            },
+            {
+                "description": "The role of expanding trade between Europe and Asia in the Black Death, including the origin and spread of the disease",
+                "ac": ["ACDSEH069"],
+                "examples": [
+                    "outline the extent of trade between Europe and Asia in the 14th century",
+                    "explain how trade and travel contributed to the outbreak and spread of the Black Death"
+                ]
+            },
+            {
+                "description": "The causes and symptoms of the Black Death and the responses of different groups in society to the spread of the disease, such as the flagellants and monasteries",
+                "ac": ["ACDSEH070"],
+                "examples": [
+                    "describe the causes and symptoms of the Black Death",
+                    "use sources to identify common treatments of the disease and discuss their effectiveness",
+                    "outline responses of social groups to the spread of the disease, including flagellants and the impact on monasteries"
+                ]
+            },
+            {
+                "description": "The effects of the Black Death on Asian, European and African populations, and conflicting theories about the impact of the plague",
+                "ac": ["ACDSEH071"],
+                "examples": [
+                    "assess the impact of the Black Death on Asian, European and African societies",
+                    "using a range of sources, discuss different interpretations of the impact of the Black Death on European society"
+                ]
+            },
+            {
+                "description": "Other immediate and long-term effects of the Black Death, including labour shortages, peasant uprisings, the weakening of feudal structures, and increased social mobility",
+                "ac": ["ACDSEH072"],
+                "examples": [
+                    "describe short-term and long-term effects of the Black Death on medieval societies",
+                    "assess the role of the Black Death in breaking down the feudal system in Europe"
+                ]
+            }]
+        },
+        {
+            "name": "Topic 6c: The Spanish Conquest of the Americas (c.AD 1492 – c.1572)",
+            "investigations": [
+            {
+                "description": "Pre-Columbian life in the Americas, including social organisation, city life and beliefs",
+                "ac": ["ACDSEH016"],
+                "examples": [
+                    "locate and identify the major civilisations and cities of the Pre-Columbian Americas in this period",
+                    "outline the organisation of society in the Pre-Columbian Americas",
+                    "describe key aspects of life in at least ONE city of the Pre-Columbian Americas, eg Teotihuacan, Tenochtitlan (Aztec), Machu Picchu (Inca)",
+                    "describe the beliefs of at least ONE Pre-Columbian society in the period"
+                ]
+            },
+            {
+                "description": "When, how and why the Spanish arrived in the Americas, and where they went, including the various societies and geographical features they encountered",
+                "ac": ["ACDSEH073"],
+                "examples": [
+                    "outline and explain the reasons for Spanish conquest and settlement in the Americas",
+                    "identify the societies that the Spanish conquered in the Americas",
+                    "describe how geographic features influenced Spanish conquest of at least ONE society"
+                ]
+            },
+            {
+                "description": "The nature of the interaction between the Spanish and the Indigenous populations, with a particular focus on either the Aztecs OR Incas",
+                "ac": ["ACDSEH074"],
+                "examples": [
+                    "using a range of sources, describe different perspectives on the first-contact experiences between the Spanish and Aztec OR Inca society",
+                    "explain how the Spanish conquered and controlled Aztec OR Inca society"
+                ]
+            },
+            {
+                "description": "The impact of the conquest on the Aztecs OR Incas as well as on the wider world",
+                "ac": ["ACDSEH075"],
+                "examples": [
+                    "explain how either the Aztecs OR the Incas were affected by the Spanish conquests, eg the introduction of new diseases, horses and gunpowder",
+                    "using a range of sources, investigate at least ONE example of the wider impact of the Spanish conquests of the Americas, eg the introduction of new foods and increased wealth in Europe"
+                ]
+            },
+            {
+                "description": "The longer-term effects of colonisation, including slavery, population changes and lack of control over resources",
+                "ac": ["ACDSEH076"],
+                "examples": [
+                    "assess the long-term effects and legacy of colonisation by the Spanish in the Americas"
+                ]
+            }]
+        },
+        {
+            "name": "Topic 6d: Aboriginal and Indigenous Peoples, Colonisation and Contact History",
+            "investigations": [
+            {
+                "description": "The nature of colonisation of ONE Indigenous community such as North America, the Pacific region, China, Africa, South-east Asia or South Asia",
+                "ac": [""],
+                "examples": [
+                    "define the concepts of invasion, occupation, colonisation and settlement",
+                    "describe the main features of the chosen Indigenous culture prior to colonisation",
+                    "explain how and why colonisation occurred"
+                ]
+            },
+            {
+                "description": "The nature of contact following colonisation of the chosen Indigenous people",
+                "ac": [""],
+                "examples": [
+                    "describe the key aspects of contact between the Indigenous people and the colonisers",
+                    "using a range of sources, describe some of the differing experiences of contact between Aboriginal and non-Aboriginal peoples such as impact of disease, land disputes, dispossession, frontier wars",
+                    "describe and assess the life of ONE of the chosen Indigenous people in contact with the colonisers"
+                ]
+            },
+            {
+                "description": "The consequences of the colonisation of the chosen Indigenous people",
+                "ac": [""],
+                "examples": [
+                    "explain the results of colonisation for the chosen Indigenous people and non-Indigenous peoples"
+                ]
+            },
+            {
+                "description": "The nature of British colonisation of Australia",
+                "ac": [""],
+                "examples": [
+                    "recall the nature of early British contact with Aboriginal and Torres Strait Islander peoples in Australia",
+                    "describe the differences between Aboriginal and non-Aboriginal relationships to Land and Country",
+                    "using a range of sources, describe some of the differing experiences of contact between Aboriginal and Torres Strait Islander peoples and non-Aboriginal people",
+                    "outline the developments in government policies towards Aboriginal and Torres Strait Islander peoples to 1900",
+                    "describe and assess the life of ONE Aboriginal and Torres Strait Islander individual in contact with the British colonisers",
+                    "explain the results of colonisation for Aboriginal and Torres Strait Islander peoples and non-Aboriginal peoples to 1900"
+                ]
+            },
+            {
+                "description": "A comparison of the colonising movement",
+                "ac": [""],
+                "examples": [
+                    "compare the Aboriginal and Torres Strait Islander peoples' experiences of colonisation with those of the chosen Indigenous culture"
+                ]
+            }]
+        }]
+    }]
+}]

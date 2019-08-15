@@ -1,0 +1,6 @@
+
+example/crdt/crdt
+*.vlog
+*.sst
+example/crdt/db/crdt/recv/MANIFEST
+example/crdt/db/crdt/send/MANIFEST
