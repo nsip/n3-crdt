@@ -1,0 +1,40 @@
+[
+
+    {
+        "id": "4947ED1F-1E94-4850-8B8F-35C653F51E9C",
+        "actor":
+        {
+            "name": "Marjorie Amaya1",
+            "mbox": "marjorie45@trashymail.com"
+        },
+        "verb":
+        {
+            "id": "http://adlnet.gov/expapi/verbs/completed",
+            "display":
+            {
+                "en-US": "completed"
+            }
+        },
+        "object":
+        {
+            "id": "http://example.com/assignments/English-8-1-A:1",
+            "definition":
+            {
+                "type": "http://adlnet.gov/expapi/activities/assessment",
+                "name": "English-8-1-A:1"
+            }
+        },
+        "result":
+        {
+            "completion": "true",
+            "success": "true",
+            "score":
+            {
+                "scaled": 55,
+                "min": 0,
+                "max": 100
+            },
+            "duration": "PT209M"
+        }
+    }
+]

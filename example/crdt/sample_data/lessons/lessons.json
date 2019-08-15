@@ -1,0 +1,39 @@
+[
+
+    {
+        "Lesson":
+        {
+            "lesson_id": "geography001",
+            "learning_area": "hsie",
+            "subject": "geography",
+            "stage": "4",
+            "title": "Lesson 1 Sequence 1",
+            "content": "This is my awsome lesson content for geography"
+        }
+    },
+
+    {
+        "Lesson":
+        {
+            "lesson_id": "history001",
+            "learning_area": "hsie",
+            "subject": "history",
+            "stage": "4",
+            "title": "Lesson 1 Sequence 1",
+            "content": "This is my awsome lesson content 2 for history"
+        }
+    },
+
+    {
+        "Lesson":
+        {
+            "lesson_id": "history002",
+            "learning_area": "hsie",
+            "subject": "history",
+            "stage": "4",
+            "title": "Lesson 2 Sequence 1",
+            "content": "This is my awsome lesson content 3 for history"
+        }
+    }
+
+]

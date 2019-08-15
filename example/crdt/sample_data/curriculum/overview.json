@@ -1,0 +1,118 @@
+ [{
+    "learning_area": "hsie",
+    "subject": "history",
+    "stage": "4",
+    "yrLvls": [7, 8],
+    "overview": [
+        "The Stage 4 curriculum provides a study of the nature of history and historical sources, both archaeological and written. Students investigate ancient history from the time of the earliest human communities to the end of the ancient period (approximately 60 000 BC – c. AD 650). It was a period defined by the development of cultural practices and organised societies, including Australia, Egypt, Greece, Rome, India and China.",
+        "Students study a range of depth studies from the end of the ancient period to the beginning of the modern period (c. AD 650 – c. 1750). During this period, major civilisations around the world came into contact with each other. Social, economic, religious and political beliefs were often challenged and significantly changed, underpinning the shaping of the modern world."
+    ],
+    "concepts": [
+    {
+        "name": "Continuity and change",
+        "description": "some aspects of a society, event or development change over time and others remain the same, eg the rise and fall of ancient civilisations; changes in religious beliefs or ideas; continuity of aspects of everyday life across centuries."
+    },
+    {
+        "name": "Cause and effect",
+        "description": "events, decisions and developments in the past that produce later actions, results or effects, eg the causes of the 'fall' of the Roman empire and its effects; the reasons for and results of the Crusades."
+    },
+    {
+        "name": "Perspectives",
+        "description": "people from the past may have had different views shaped by their different experiences, eg the conquest of the Americas would be viewed differently by an Inca noble and a Spanish conqueror; the arrival of the First Fleet would be viewed differently by a British naval captain and an Aboriginal elder."
+    },
+    {
+        "name": "Empathetic understanding",
+        "description": "the ability to understand another's point of view, way of life and decisions made in a different period of time or society, eg an understanding of why medieval villagers believed the Black Death was sent by God as punishment; why ancient Egyptians believed their kings were divine."
+    },
+    {
+        "name": "Significance",
+        "description": "the importance of an event, development, group or individual and their impact on their times or later periods, eg the importance/impact of the Viking invasions on the British Isles; the significance of the Black Death for medieval societies."
+    },
+    {
+        "name": "Contestability",
+        "description": "how historians may dispute a particular interpretation of an historical source, historical event or issue, eg did the Roman empire 'fall', were the Mongols 'bloodthirsty conquerors', did the British 'settle' or 'invade' Australia?"
+    }],
+    "inquiry_skills": [
+    {
+        "name": "Comprehension: chronology, terms and concepts",
+        "skills": [
+        {
+            "skill": "read and understand historical texts",
+            "ac": [""]
+        },
+        {
+            "skill": "sequence historical events and periods",
+            "ac": ["ACHHS205", "ACHHS148"]
+        },
+        {
+            "skill": "use historical terms and concepts",
+            "ac": ["ACHHS206", "ACHHS149"]
+        }]
+    },
+    {
+        "name": "Analysis and use of sources",
+        "skills": [
+        {
+            "skill": "identify the origin and purpose of primary and secondary sources",
+            "ac": ["ACHHS209", "ACHHS152"]
+        },
+        {
+            "skill": "locate, select and use information from a range of sources as evidence",
+            "ac": ["ACHHS210", "ACHHS153"]
+        },
+        {
+            "skill": "draw conclusions about the usefulness of sources",
+            "ac": ["ACHHS211", "ACHHS154"]
+        }]
+    },
+    {
+        "name": "Perspectives and interpretations",
+        "skills": [
+        {
+            "skill": "identify and describe different perspectives of participants in a particular historical context",
+            "ac": ["ACHHS212", "ACHHS155"]
+        }]
+    },
+    {
+        "name": "Empathetic understanding",
+        "skills": [
+        {
+            "skill": "interpret history within the context of the actions, attitudes and motives of people in the context of the past",
+            "ac": ["ACHHS212", "ACHHS155"]
+        }]
+    },
+    {
+        "name": "Research",
+        "skills": [
+        {
+            "skill": "ask a range of questions about the past to inform an historical inquiry",
+            "ac": ["ACHHS207", "ACHHS150"]
+        },
+        {
+            "skill": "identify and locate a range of relevant sources, using ICT and other methods",
+            "ac": ["ACHHS208", "ACHHS151"]
+        },
+        {
+            "skill": "use a range of communication forms and technologies",
+            "ac": [""]
+        }]
+    },
+    {
+        "name": "Explanation and communication",
+        "skills": [
+        {
+            "skill": "develop historical texts, particularly explanations and historical arguments that use evidence from a range of sources",
+            "ac": ["ACHHS213", "ACHHS156"]
+        },
+        {
+            "skill": "select and use a range of communication forms (oral, graphic, written and digital) to communicate effectively about the past",
+            "ac": ["ACHHS214", "ACHHS157"]
+        }]
+    }],
+    "tools": [
+    {
+        "name": "no specific tools identitifed",
+        "examples": [""],
+        "code": ""
+    }]
+}]

@@ -1,0 +1,460 @@
+[
+
+    {
+        "id": "4947ED1F-1E94-4850-8B8F-35C653F51E9C",
+        "actor":
+        {
+            "name": "Marjorie Amaya",
+            "mbox": "marjorie45@trashymail.com"
+        },
+        "verb":
+        {
+            "id": "http://adlnet.gov/expapi/verbs/completed",
+            "display":
+            {
+                "en-US": "completed"
+            }
+        },
+        "object":
+        {
+            "id": "http://example.com/assignments/English-8-1-A:1",
+            "definition":
+            {
+                "type": "http://adlnet.gov/expapi/activities/assessment",
+                "name": "English-8-1-A:1"
+            }
+        },
+        "result":
+        {
+            "completion": "true",
+            "success": "true",
+            "score":
+            {
+                "scaled": 55,
+                "min": 0,
+                "max": 100
+            },
+            "duration": "PT209M"
+        }
+    },
+    {
+        "StudentPersonal":
+        {
+            "RefId": "82656FA0-17B6-42BF-9915-487360FDF361",
+            "LocalId": "nwkoe858",
+            "PersonInfo":
+            {
+                "Name":
+                {
+                    "Type": "LGL",
+                    "FamilyName": "Bailey",
+                    "GivenName": "Jacquelin"
+                },
+                "Demographics":
+                {
+                    "IndigenousStatus": "3",
+                    "Sex": "2",
+                    "BirthDate": "2004-06-02"
+                },
+                "EmailList":
+                {
+                    "Email": [
+                    {
+                        "Type": "01",
+                        "value": "jacquelin5@spambob.com"
+                    },
+                    {
+                        "Type": "02",
+                        "value": "jac@spambob.com"
+                    },
+                    {
+                        "added thing": "added thing"
+                    }],
+                    "AddedThing2": "added_thing2"
+                }
+            }
+        }
+    },
+
+    {
+        "GradingAssignment":
+        {
+            "RefId": "AC811ECB-2171-49B1-9590-37E27D36505A",
+            "TeachingGroupRefId": "50C59FA4-1E40-4F83-A084-66FC8734301A",
+            "Description": "Assignment No. 1 for this subject",
+            "PointsPossible": 100,
+            "DetailedDescriptionURL": "http://example.com/assignments/English-8-1-A:1"
+        }
+    },
+    {
+        "TeachingGroup":
+        {
+            "RefId": "0054EB5F-07E6-4A26-84FA-2ADDBF5D84E9",
+            "SchoolYear": "2018",
+            "LocalId": "2018-Mathematics-7-1-A",
+            "ShortName": "7A Mathematics 1",
+            "LongName": "Year 7A Mathematics 1",
+            "TimeTableSubjectRefId": "5DC8EF27-B4A0-4153-954D-84153F1D591D",
+            "StudentList":
+            {
+                "TeachingGroupStudent": [
+                {
+                    "StudentPersonalRefId": "82656FA0-17B6-42BF-9915-487360FDF361",
+                    "StudentLocalId": "nwkoe858",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Bailey",
+                        "GivenName": "Jacquelin"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "3E7F40EE-4298-43EE-9659-B5A5A1DF6FF9",
+                    "StudentLocalId": "iiive455",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Meier",
+                        "GivenName": "Tony"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "A53D70D0-FD9F-4993-8426-1791FFB57A35",
+                    "StudentLocalId": "nvzxt152",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Daggett",
+                        "GivenName": "Corazon"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "BC67DF7F-E32D-4A18-A5B9-C65DCB571836",
+                    "StudentLocalId": "vcyhs575",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Brawley",
+                        "GivenName": "Melvin"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "FDA0133A-A40D-4B51-AEDD-F47FFF77A9D5",
+                    "StudentLocalId": "bcsdy120",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Owens",
+                        "GivenName": "Adan"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "08092BCC-677C-4CA5-9648-0535C765F94D",
+                    "StudentLocalId": "mjwfs050",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Pierre",
+                        "GivenName": "Alvin"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "5C63D2A4-E39C-4147-947D-0AFBD2E77D84",
+                    "StudentLocalId": "xrham196",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Holloman",
+                        "GivenName": "Eva"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "5903BBB4-6AA2-4EC2-90BD-3174636C9BE6",
+                    "StudentLocalId": "sjnmp679",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Noriega",
+                        "GivenName": "Dave"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "B0652BA9-E53A-4333-B220-ABCE80567F36",
+                    "StudentLocalId": "sxygo847",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Thomas",
+                        "GivenName": "Richard"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "27456CDE-FFBB-4C3E-BD38-CF45E808EC36",
+                    "StudentLocalId": "mvvsv724",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Burks",
+                        "GivenName": "Harvey"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "47997A37-9586-413D-94DC-FB9D3956F883",
+                    "StudentLocalId": "iukld544",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Wallace",
+                        "GivenName": "Chasity"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "3262D3F4-43D7-47BF-B98B-7C1F1669A93A",
+                    "StudentLocalId": "nesdi385",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Cormack",
+                        "GivenName": "Patrick"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "C4C9E622-87F1-4441-AA5D-EB5CB9B9D696",
+                    "StudentLocalId": "elkiw763",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Smith",
+                        "GivenName": "Alisha"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "77CDCFE3-37A3-4106-ACC5-6050B8F124E3",
+                    "StudentLocalId": "idovn878",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Travis",
+                        "GivenName": "Margie"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "1507FD01-36CD-425C-8C8E-89D167E3E0D9",
+                    "StudentLocalId": "zceca836",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Rogers",
+                        "GivenName": "Evan"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "0685500C-CCFD-4B33-A8A4-4175BC7C8A48",
+                    "StudentLocalId": "qlmui767",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "May",
+                        "GivenName": "Elena"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "A4EA714C-6E14-4926-B1E3-B52D4451436F",
+                    "StudentLocalId": "wnizm772",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Phillips",
+                        "GivenName": "Mona"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "21B59C22-2613-4596-91F4-EDBE87B89670",
+                    "StudentLocalId": "rkjyl187",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Williams",
+                        "GivenName": "Isabel"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "C24C0BFF-59DE-4136-9CDD-48BD5D06D8C3",
+                    "StudentLocalId": "abpqf982",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Laws",
+                        "GivenName": "Willian"
+                    }
+                },
+                {
+                    "StudentPersonalRefId": "57335D20-FBD8-494E-A183-37AC8AD1452E",
+                    "StudentLocalId": "nockc253",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Wallace",
+                        "GivenName": "Manual"
+                    }
+                }]
+            },
+            "TeacherList":
+            {
+                "TeachingGroupTeacher": [
+                {
+                    "StaffPersonalRefId": "A4F0069E-D3B8-4822-BDD9-4D649E2A47FD",
+                    "StaffLocalId": "lzrlb501",
+                    "Name":
+                    {
+                        "Type": "LGL",
+                        "FamilyName": "Lewis",
+                        "GivenName": "Antonio"
+                    },
+                    "Association": "Class Teacher"
+                }]
+            },
+            "TeachingGroupPeriodList":
+            {
+                "TeachingGroupPeriod": [
+                {
+                    "RoomNumber": "162",
+                    "DayId": "Tu",
+                    "PeriodId": "16:00:00"
+                },
+                {
+                    "RoomNumber": "128",
+                    "DayId": "We",
+                    "PeriodId": "15:00:00"
+                }]
+            }
+        }
+    },
+    {
+        "learning_area": "hsie",
+        "subject": "history",
+        "stage": "5",
+        "yrLvls": [9, 10],
+        "overview": [
+            "The Stage 5 curriculum provides a study of the history of the making of the modern world from 1750 to 1945. It was a period of industrialisation and rapid change in the ways people lived, worked and thought. It was an era of nationalism and imperialism, and the colonisation of Australia was part of the expansion of European power. The period culminated in World War I (1914–1918) and World War II (1939–1945).",
+            "The history of the modern world and Australia from 1945 to the present, with an emphasis on Australia in its global context, follows. The twentieth century became a critical period in Australia's social, cultural, economic and political development. The transformation of the modern world during a time of political turmoil, global conflict and international cooperation provides a necessary context for understanding Australia's development, its place within the Asia-Pacific region, and its global standing."
+        ],
+        "concepts": [
+        {
+            "name": "Continuity and change",
+            "description": "some aspects of a society, event or development change over time and others remain the same, eg features of life during the Industrial Revolution which changed or remained the same; features of an Asian society which changed or remained the same after contact with European powers."
+        },
+        {
+            "name": "Cause and effect",
+            "description": "events, decisions and developments in the past that produce later actions, results or effects, eg reasons for the outbreak of World War I and the effects of this conflict; the reasons for and impact of the struggle for rights and freedoms of Aboriginal and Torres Strait Islander peoples."
+        },
+        {
+            "name": "Perspectives",
+            "description": "people from the past may have had different views and experiences, eg the landing at Gallipoli would be viewed differently by Australian and Turkish soldiers; nuclear testing in the Pacific would be viewed differently from an Australian and a French government point of view."
+        },
+        {
+            "name": "Empathetic understanding",
+            "description": "the ability to understand another's point of view, way of life and decisions made in a different period of time or society, eg understanding the reasons why migrant groups made the decision to come to Australia and the difficulties they faced; understanding the viewpoints and actions of environmentalists in opposing developments such as the damming of Tasmania's Gordon River."
+        },
+        {
+            "name": "Significance",
+            "description": "the importance of an event, development, group or individual and their impact on their times and/or later periods, eg the importance of the changes brought about by the Industrial Revolution; the importance of World War II on Australia's relations with other countries."
+        },
+        {
+            "name": "Contestability",
+            "description": "how historians may dispute a particular interpretation of an historical source, event or issue, eg that the Gallipoli campaign 'gave birth to our nation'; whether Australia was justified in taking part in the Vietnam War."
+        }],
+        "inquiry_skills": [
+        {
+            "name": "Comprehension: chronology, terms and concepts",
+            "skills": [
+            {
+                "skill": "read and understand historical texts",
+                "ac": [""]
+            },
+            {
+                "skill": "use historical terms and concepts in appropriate contexts",
+                "ac": ["ACHHS165", "ACHHS183"]
+            },
+            {
+                "skill": "sequence historical events to demonstrate the relationship between different periods, people and places",
+                "ac": ["ACHHS164", "ACHHS182"]
+            }]
+        },
+        {
+            "name": "Analysis and use of sources",
+            "skills": [
+            {
+                "skill": "identify different types of sources",
+                "ac": [""]
+            },
+            {
+                "skill": "identify the origin, content, context and purpose of primary and secondary sources",
+                "ac": ["ACHHS169", "ACHHS187"]
+            },
+            {
+                "skill": "process and synthesise information from a range of sources as evidence in an historical argument",
+                "ac": ["ACHHS170", "ACHHS188"]
+            },
+            {
+                "skill": "evaluate the reliability and usefulness of primary and secondary sources for a specific historical inquiry",
+                "ac": ["ACHHS171", "ACHHS189"]
+            }]
+        },
+        {
+            "name": "Perspectives and interpretations",
+            "skills": [
+            {
+                "skill": "identify and analyse the reasons for different perspectives in a particular historical context",
+                "ac": ["ACHHS172", "ACHHS173", "ACHHS190", "ACHHS191"]
+            },
+            {
+                "skill": "recognise that historians may interpret events and developments differently",
+                "ac": ["ACHHS173", "ACHHS191"]
+            }]
+        },
+        {
+            "name": "Empathetic understanding",
+            "skills": [
+            {
+                "skill": "interpret history within the context of the actions, values, attitudes and motives of people in the context of the past",
+                "ac": ["ACHHS172", "ACHHS173", "ACHHS190", "ACHHS191"]
+            }]
+        },
+        {
+            "name": "Research",
+            "skills": [
+            {
+                "skill": "ask and evaluate different kinds of questions about the past to inform an historical inquiry",
+                "ac": ["ACHHS166", "ACHHS167", "ACHHS184", "ACHHS185"]
+            },
+            {
+                "skill": "plan historical research to suit the purpose of an investigation",
+                "ac": [""]
+            },
+            {
+                "skill": "identify, locate, select and organise information from a variety of sources, including ICT and other methods",
+                "ac": ["ACHHS168", "ACHHS186"]
+            }]
+        },
+        {
+            "name": "Explanation and communication",
+            "skills": [
+            {
+                "skill": "develop historical texts, particularly explanations and historical arguments that use evidence from a range of sources",
+                "ac": ["ACHHS174", "ACHHS188", "ACHHS192"]
+            },
+            {
+                "skill": "select and use a range of communication forms, such as oral, graphic, written and digital, to communicate effectively about the past for different audiences and different purposes",
+                "ac": ["ACHHS175", "ACHHS193"]
+            }]
+        }],
+        "tools": [
+        {
+            "name": "no tools specified",
+            "examples": [""],
+            "code": ""
+        }]
+    }
+
+]
