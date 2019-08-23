@@ -5,19 +5,18 @@ package main
 import (
 	"fmt"
 	"log"
+	"time"
 
 	crdt "github.com/nsip/n3-crdt"
 )
 
 func main() {
 
-	crdtm, err := crdt.NewManager("mattf4", "context1")
+	crdtm, err := crdt.NewCRDTManager("mattf01", "context1")
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer crdtm.Close()
 
-	// dataFile := "./sample_data/xapi/single_xapi.json"
 	dataFile := "./sample_data/xapi/xapi.json"
 	// dataFile := "./sample_data/sif/sif.json"
 
@@ -32,16 +31,17 @@ func main() {
 		log.Fatal("StartReciver() Error: ", err)
 	}
 
-	count := 0
-	for json := range iterator {
-		count++
-		fmt.Printf("\njson msg recieved:(%d)\n%s\n", count, json)
-		_ = json
-		if count == 3200 { // for simple xapi input
-			break
+	// use the iterator, just audit to log
+	go func() {
+		count := 0
+		for json := range iterator {
+			count++
+			fmt.Printf("\njson msg recieved:(%d)\n%s\n", count, json)
 		}
-	}
-	crdtm.StopReceiver()
-	log.Println("...reciver stopped.")
+	}()
+
+	time.Sleep(time.Second * 5)
+
+	crdtm.Close()
 
 }

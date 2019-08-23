@@ -4,6 +4,7 @@ package crdt
 
 import (
 	"context"
+	"log"
 
 	stan "github.com/nats-io/stan.go"
 	"github.com/pkg/errors"
@@ -21,19 +22,21 @@ func streamCRDTSource(ctx context.Context, userid string, topicName string, sc s
 
 	out := make(chan []byte)
 	errc := make(chan error, 1)
-	msgchan := make(chan []byte, 1000)
+	msgchan := make(chan []byte)
 
 	// var sub stan.Subscription
 
 	go func() {
 		defer close(out)
 		defer close(errc)
-		defer close(msgchan)
 		// establish the stream subscription
 		sub, err := sc.Subscribe(topicName, func(msg *stan.Msg) {
 			msgchan <- msg.Data
 		}, stan.DurableName(topicName+userid), stan.DeliverAllAvailable())
+		// note order of defers important here,
+		// sub will panic if msgchan closed first.
 		defer sub.Close()
+		defer close(msgchan)
 		if err != nil {
 			errc <- errors.Wrap(err, "unable to connect to streaming server streamCRDTSource():")
 			return
@@ -43,6 +46,7 @@ func streamCRDTSource(ctx context.Context, userid string, topicName string, sc s
 			select {
 			case out <- msgdata: // pass the data package on to the next stage
 			case <-ctx.Done(): // listen for pipeline shutdown
+				log.Println("...streamsource got cancel ctx.")
 				sub.Close()
 				return
 			}
