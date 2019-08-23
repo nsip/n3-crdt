@@ -5,6 +5,7 @@ package crdt
 import (
 	"context"
 	"encoding/json"
+	"fmt"
 
 	"github.com/BurntSushi/toml"
 	"github.com/nats-io/nuid"
@@ -46,7 +47,8 @@ func objectClassifier(ctx context.Context, userid string, topicName string, in <
 		Classifier []classifier
 	}
 	var c classifiers
-	if _, err := toml.DecodeFile("./config/datatypes.toml", &c); err != nil {
+	classifierFile := fmt.Sprintf("./contexts/%s/%s/crdt/config/datatypes.toml", userid, topicName)
+	if _, err := toml.DecodeFile(classifierFile, &c); err != nil {
 		return nil, nil, err
 	}
 

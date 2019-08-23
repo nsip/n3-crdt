@@ -72,6 +72,13 @@ func runReciever(ctx context.Context, userid string, topicName string, sc stan.C
 	}
 	errcList = append(errcList, errc)
 
-	return WaitForPipeline(errcList...)
+	err = WaitForPipeline(errcList...)
+	if err != nil {
+		return err
+	}
+
+	err = wb.Flush()
+
+	return err
 
 }

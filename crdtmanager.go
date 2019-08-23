@@ -3,6 +3,7 @@
 package crdt
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"time"
@@ -49,14 +50,15 @@ type CRDTManager struct {
 //
 // Open a crdt manager with supporting datastores
 // will use the local path
-// ./db/crdt/send & ./db/crdt/recv by default
+// ./contexts/[userid]/[topic]/crdt/send &
+// ./contexts/[usierid]/[topic]/crdt/recv by default
 //
-func NewManager(userid string, topic string) (*CRDTManager, error) {
+func NewCRDTManager(userid string, topic string) (*CRDTManager, error) {
 
-	defer timeTrack(time.Now(), "Open()")
+	defer timeTrack(time.Now(), "NewManager - Open()")
 
-	// if no filename provided will create locally
-	crdtm, err := openFromFilePath("./db/crdt")
+	managerPath := fmt.Sprintf("./contexts/%s/%s/crdt", userid, topic)
+	crdtm, err := openFromFilePath(managerPath)
 	if err != nil {
 		return nil, errors.Wrap(err, "unable to open datastores:")
 	}
@@ -64,6 +66,11 @@ func NewManager(userid string, topic string) (*CRDTManager, error) {
 	// assign user context
 	crdtm.UserId = userid
 	crdtm.TopicName = topic
+
+	err = createDefaultConfig(managerPath)
+	if err != nil {
+		return nil, err
+	}
 
 	// create streaming server connection
 	conn, err := stan.Connect(
@@ -87,14 +94,27 @@ func (crdtm *CRDTManager) Close() {
 
 	defer timeTrack(time.Now(), "Close()")
 
+	// // shut down the receiver if running
+	// if crdtm.ReceiverCancelFunc != nil {
+	// 	// log.Println("Close() stopping receiver...")
+	// 	// crdtm.StopReceiver()
+	// 	crdtm.ReceiverCancelFunc()
+	// 	time.Sleep(time.Second * 5)
+	// }
+
+	// closure for streaming server connection
+	// crdtm.sc.Close()
+
 	err := crdtm.swb.Flush()
 	if err != nil {
 		log.Println("error flushing send write-batch: ", err)
 	}
+
 	err = crdtm.rwb.Flush()
 	if err != nil {
 		log.Println("error flushing receive write-batch: ", err)
 	}
+
 	err = crdtm.sdb.Close()
 	if err != nil {
 		log.Println("error closing send datastore: ", err)
@@ -103,12 +123,11 @@ func (crdtm *CRDTManager) Close() {
 	if err != nil {
 		log.Println("error closing receive datastore: ", err)
 	}
-	// shut down the receiver if running
-	if crdtm.ReceiverCancelFunc != nil {
-		crdtm.StopReceiver()
-	}
-	// closure for streaming server connection
-	crdtm.sc.Close()
+
+	// // shut down the receiver if running
+	// if crdtm.ReceiverCancelFunc != nil {
+	// 	crdtm.StopReceiver()
+	// }
 
 }
 
