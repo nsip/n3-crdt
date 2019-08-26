@@ -24,11 +24,6 @@ func (crdtm *CRDTManager) StartReceiver() (<-chan []byte, error) {
 			log.Println("ReceiverError: ", err)
 			return
 		}
-		// ensure the writer finishes
-		// crdtm.rwb.Flush()
-		// reinstate the writer
-		// crdtm.rwb = crdtm.rdb.NewWriteBatch()
-
 	}()
 
 	return iterator, nil
@@ -39,10 +34,6 @@ func (crdtm *CRDTManager) StartReceiver() (<-chan []byte, error) {
 // shuts down the receiver gracefully
 //
 func (crdtm *CRDTManager) StopReceiver() {
-	log.Println("...called stopReceiver()")
-	// invoke the pipeline controller context cancelFunc
-	// crdtm.ReceiverCancelFunc()
 	// flush write buffers
 	crdtm.rwb.Flush()
-	// crdtm.ReceiverCancelFunc()
 }

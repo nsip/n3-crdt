@@ -4,7 +4,6 @@ package crdt
 
 import (
 	"context"
-	"fmt"
 	"io"
 
 	"github.com/dgraph-io/badger"
@@ -72,7 +71,8 @@ func runSendWithReader(sdb *badger.DB, swb *badger.WriteBatch, userId string, to
 
 	// minimal audit log
 	for cd := range saveOut {
-		fmt.Printf("sent & saved:\t%s, v: %v id: %s\n", cd.N3id, cd.CRDT.Version(), cd.CRDT.ID())
+		// fmt.Printf("sent & saved:\t%s, v: %v id: %s\n", cd.N3id, cd.CRDT.Version(), cd.CRDT.ID())
+		_ = cd
 	}
 
 	return WaitForPipeline(errcList...)

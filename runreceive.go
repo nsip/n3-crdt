@@ -77,6 +77,7 @@ func runReciever(ctx context.Context, userid string, topicName string, sc stan.C
 		return err
 	}
 
+	// make sure all changes persisted to disk
 	err = wb.Flush()
 
 	return err
