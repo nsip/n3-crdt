@@ -4,7 +4,6 @@ package crdt
 
 import (
 	"context"
-	"log"
 
 	"github.com/dgraph-io/badger"
 	"github.com/pkg/errors"
@@ -43,12 +42,9 @@ func saveCRDT(ctx context.Context, wb *badger.WriteBatch, in <-chan CRDTData) (
 			select {
 			case out <- cd: // pass the data package on to the next stage
 			case <-ctx.Done(): // listen for pipeline shutdown
-				log.Println("...savecrdt cancel ctx.")
-				// wb.Flush()
 				return
 			}
 		}
-		log.Println("...channel closed")
 	}()
 
 	return out, errc, nil

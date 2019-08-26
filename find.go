@@ -86,7 +86,7 @@ func updateCache(cd CRDTData, crdt *vvmap.Map, cache *buntdb.DB) error {
 		return errors.Wrap(err, "unable to encode crdt updateCache():")
 	}
 	err = cache.Update(func(tx *buntdb.Tx) error {
-		_, _, err := tx.Set(cd.N3id, string(encoded), &buntdb.SetOptions{Expires: true, TTL: time.Hour})
+		_, _, err := tx.Set(cd.N3id, string(encoded), &buntdb.SetOptions{Expires: true, TTL: time.Minute})
 		return err
 	})
 	if err != nil {

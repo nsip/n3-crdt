@@ -4,7 +4,6 @@ package crdt
 
 import (
 	"context"
-	"log"
 
 	stan "github.com/nats-io/stan.go"
 	"github.com/pkg/errors"
@@ -46,7 +45,6 @@ func streamCRDTSource(ctx context.Context, userid string, topicName string, sc s
 			select {
 			case out <- msgdata: // pass the data package on to the next stage
 			case <-ctx.Done(): // listen for pipeline shutdown
-				log.Println("...streamsource got cancel ctx.")
 				sub.Close()
 				return
 			}

@@ -24,15 +24,7 @@ func (crdtm *CRDTManager) SendFromFile(fname string) error {
 		return errors.Wrap(err, "cannot open data file: ")
 	}
 
-	err = runSendWithReader(crdtm.sdb, crdtm.swb, crdtm.UserId, crdtm.TopicName, crdtm.sc, f, crdtm.AuditLevel)
-	if err != nil {
-		return errors.Wrap(err, "error ingesting data file: "+fname)
-	}
-	// ensure the writer finishes
-	crdtm.swb.Flush()
-	// reinstate the writer
-	crdtm.swb = crdtm.sdb.NewWriteBatch()
-	return err
+	return crdtm.SendFromReader(f)
 
 }
 

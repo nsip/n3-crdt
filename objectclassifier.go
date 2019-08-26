@@ -20,9 +20,6 @@ import (
 // Uses the config in ./config/datatype.toml for deriving the
 // data model, unique id etc.
 //
-// ctx - context to manage the pipeline
-// in - channel providing map[string]interface{} containing
-// the json data
 //
 func objectClassifier(ctx context.Context, userid string, topicName string, in <-chan map[string]interface{}) (
 	<-chan CRDTData, // emits CRDTData objects with classification elements

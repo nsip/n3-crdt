@@ -92,19 +92,12 @@ func NewCRDTManager(userid string, topic string) (*CRDTManager, error) {
 //
 func (crdtm *CRDTManager) Close() {
 
-	defer timeTrack(time.Now(), "Close()")
-
-	// // shut down the receiver if running
-	// if crdtm.ReceiverCancelFunc != nil {
-	// 	// log.Println("Close() stopping receiver...")
-	// 	// crdtm.StopReceiver()
-	// 	crdtm.ReceiverCancelFunc()
-	// 	time.Sleep(time.Second * 5)
-	// }
+	defer timeTrack(time.Now(), "CRDTManager Close()")
 
 	// closure for streaming server connection
-	// crdtm.sc.Close()
+	crdtm.sc.Close()
 
+	// ensure writes to db complete
 	err := crdtm.swb.Flush()
 	if err != nil {
 		log.Println("error flushing send write-batch: ", err)
@@ -115,6 +108,7 @@ func (crdtm *CRDTManager) Close() {
 		log.Println("error flushing receive write-batch: ", err)
 	}
 
+	// close the databases
 	err = crdtm.sdb.Close()
 	if err != nil {
 		log.Println("error closing send datastore: ", err)
@@ -123,11 +117,6 @@ func (crdtm *CRDTManager) Close() {
 	if err != nil {
 		log.Println("error closing receive datastore: ", err)
 	}
-
-	// // shut down the receiver if running
-	// if crdtm.ReceiverCancelFunc != nil {
-	// 	crdtm.StopReceiver()
-	// }
 
 }
 

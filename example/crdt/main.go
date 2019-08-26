@@ -36,7 +36,7 @@ func main() {
 		count := 0
 		for json := range iterator {
 			count++
-			fmt.Printf("\njson msg recieved:(%d)\n%s\n", count, json)
+			fmt.Printf("\njson msg received:(%d)\n%s\n", count, json)
 		}
 	}()
 
