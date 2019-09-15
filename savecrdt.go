@@ -12,17 +12,20 @@ import (
 //
 // store the crdt in long-term db
 //
-func saveCRDT(ctx context.Context, wb *badger.WriteBatch, in <-chan CRDTData) (
+// func saveCRDT(ctx context.Context, wb *badger.WriteBatch, in <-chan CRDTData) (
+func saveCRDT(ctx context.Context, db *badger.DB, in <-chan CRDTData) (
 	<-chan CRDTData, // emits CRDTData objects with updated crdt if changed
 	<-chan error, // emits errors encountered to the pipeline manager
 	error) { // any error encountered when creating this component
 
 	out := make(chan CRDTData)
 	errc := make(chan error, 1)
+	wb := db.NewWriteBatch()
 
 	go func() {
 		defer close(out)
 		defer close(errc)
+		defer wb.Flush()
 
 		for cd := range in {
 

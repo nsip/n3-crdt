@@ -44,14 +44,15 @@ func (crdtm *CRDTManager) SendFromHTTPRequest(r *http.Request) error {
 //
 func (crdtm *CRDTManager) SendFromReader(r io.Reader) error {
 
-	err := runSendWithReader(crdtm.sdb, crdtm.swb, crdtm.UserId, crdtm.TopicName, crdtm.sc, r, crdtm.AuditLevel)
+	// err := runSendWithReader(crdtm.sdb, crdtm.swb, crdtm.UserId, crdtm.TopicName, crdtm.sc, r, crdtm.AuditLevel)
+	err := runSendWithReader(crdtm.sdb, crdtm.UserId, crdtm.TopicName, crdtm.sc, r, crdtm.AuditLevel)
 	if err != nil {
 		return errors.Wrap(err, "error ingesting data from reader:")
 	}
 	// ensure the writer finishes
-	crdtm.swb.Flush()
+	// crdtm.swb.Flush()
 	// reinstate the writer
-	crdtm.swb = crdtm.sdb.NewWriteBatch()
+	// crdtm.swb = crdtm.sdb.NewWriteBatch()
 
 	return err
 

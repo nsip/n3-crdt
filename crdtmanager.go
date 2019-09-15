@@ -20,10 +20,6 @@ type CRDTManager struct {
 	sdb *badger.DB // used when sending, client specific
 	rdb *badger.DB // used when receiving from any/all clients
 	//
-	// manages parallel async writing to dbs
-	//
-	swb *badger.WriteBatch // on send
-	rwb *badger.WriteBatch // on receive
 	//
 	// connection to the streaming server
 	//
@@ -97,19 +93,8 @@ func (crdtm *CRDTManager) Close() {
 	// closure for streaming server connection
 	crdtm.sc.Close()
 
-	// ensure writes to db complete
-	err := crdtm.swb.Flush()
-	if err != nil {
-		log.Println("error flushing send write-batch: ", err)
-	}
-
-	err = crdtm.rwb.Flush()
-	if err != nil {
-		log.Println("error flushing receive write-batch: ", err)
-	}
-
 	// close the databases
-	err = crdtm.sdb.Close()
+	err := crdtm.sdb.Close()
 	if err != nil {
 		log.Println("error closing send datastore: ", err)
 	}
@@ -149,7 +134,6 @@ func openFromFilePath(folderPath string) (*CRDTManager, error) {
 	if err != nil {
 		return nil, err
 	}
-	swb := sdb.NewWriteBatch()
 	log.Println("...send datastore opened")
 
 	options = badger.DefaultOptions(recv)
@@ -158,14 +142,11 @@ func openFromFilePath(folderPath string) (*CRDTManager, error) {
 	if err != nil {
 		return nil, err
 	}
-	rwb := rdb.NewWriteBatch()
 	log.Println("...receive datastore opened")
 
 	return &CRDTManager{
 		sdb:        sdb,
 		rdb:        rdb,
-		swb:        swb,
-		rwb:        rwb,
 		AuditLevel: "high",
 	}, nil
 }

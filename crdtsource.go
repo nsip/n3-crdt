@@ -4,6 +4,8 @@ package crdt
 
 import (
 	"context"
+	"log"
+	"time"
 
 	stan "github.com/nats-io/stan.go"
 	"github.com/pkg/errors"
@@ -30,6 +32,7 @@ func streamCRDTSource(ctx context.Context, userid string, topicName string, sc s
 		defer close(errc)
 		// establish the stream subscription
 		sub, err := sc.Subscribe(topicName, func(msg *stan.Msg) {
+			// _, err := sc.Subscribe(topicName, func(msg *stan.Msg) {
 			msgchan <- msg.Data
 		}, stan.DurableName(topicName+userid), stan.DeliverAllAvailable())
 		// note order of defers important here,
@@ -41,14 +44,17 @@ func streamCRDTSource(ctx context.Context, userid string, topicName string, sc s
 			return
 		}
 
-		for msgdata := range msgchan {
+		for {
 			select {
-			case out <- msgdata: // pass the data package on to the next stage
+			case data := <-msgchan: // pass the data package on to the next stage
+				out <- data
+			case <-time.After(2 * time.Second):
+				// close the subscription if no activity
+				log.Println("...no more messages available...")
+				return
 			case <-ctx.Done(): // listen for pipeline shutdown
-				sub.Close()
 				return
 			}
-
 		}
 
 	}()
