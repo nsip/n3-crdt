@@ -19,7 +19,7 @@ func (crdtm *CRDTManager) StartReceiver() (<-chan []byte, error) {
 
 	go func() {
 		defer close(iterator)
-		err := runReciever(ctx, crdtm.UserId, crdtm.TopicName, crdtm.sc, crdtm.rdb, crdtm.rwb, iterator)
+		err := runReciever(ctx, crdtm.UserId, crdtm.TopicName, crdtm.sc, crdtm.rdb, iterator)
 		if err != nil {
 			log.Println("ReceiverError: ", err)
 			return
@@ -35,5 +35,5 @@ func (crdtm *CRDTManager) StartReceiver() (<-chan []byte, error) {
 //
 func (crdtm *CRDTManager) StopReceiver() {
 	// flush write buffers
-	crdtm.rwb.Flush()
+	// crdtm.rwb.Flush()
 }

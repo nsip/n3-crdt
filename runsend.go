@@ -21,7 +21,8 @@ import (
 // Sends the resulting object to the
 // streaming provider, nats in the case of N3.
 //
-func runSendWithReader(sdb *badger.DB, swb *badger.WriteBatch, userId string, topicName string, sc stan.Conn, r io.Reader, auditLevel string) error {
+// func runSendWithReader(sdb *badger.DB, swb *badger.WriteBatch, userId string, topicName string, sc stan.Conn, r io.Reader, auditLevel string) error {
+func runSendWithReader(sdb *badger.DB, userId string, topicName string, sc stan.Conn, r io.Reader, auditLevel string) error {
 
 	// set up a context to manage send pipeline
 	ctx, cancelFunc := context.WithCancel(context.Background())
@@ -63,7 +64,8 @@ func runSendWithReader(sdb *badger.DB, swb *badger.WriteBatch, userId string, to
 	errcList = append(errcList, errc)
 
 	// save the crdt
-	saveOut, errc, err := saveCRDT(ctx, swb, publishOut)
+	// saveOut, errc, err := saveCRDT(ctx, swb, publishOut)
+	saveOut, errc, err := saveCRDT(ctx, sdb, publishOut)
 	if err != nil {
 		return errors.Wrap(err, "Error: cannot create save-crdt component: ")
 	}

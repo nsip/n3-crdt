@@ -15,8 +15,8 @@ import (
 // nominated stream, merges with local versions and outputs
 // an iterator of the resulting json objects
 //
-func runReciever(ctx context.Context, userid string, topicName string, sc stan.Conn, db *badger.DB, wb *badger.WriteBatch, iterator chan []byte) error { // <-chan []byte, // emits json objects
-
+// func runReciever(ctx context.Context, userid string, topicName string, sc stan.Conn, db *badger.DB, wb *badger.WriteBatch, iterator chan []byte) error { // <-chan []byte, // emits json objects
+func runReciever(ctx context.Context, userid string, topicName string, sc stan.Conn, db *badger.DB, iterator chan []byte) error { // <-chan []byte, // emits json objects
 	// monitor all error channels
 	var errcList []<-chan error
 	var buildError error
@@ -55,7 +55,7 @@ func runReciever(ctx context.Context, userid string, topicName string, sc stan.C
 	errcList = append(errcList, errc)
 
 	// save the updated crdt
-	saveOut, errc, err := saveCRDT(ctx, wb, mergeOut)
+	saveOut, errc, err := saveCRDT(ctx, db, mergeOut)
 	if err != nil {
 		buildError = errors.Wrap(err, "Error: cannot create save-crdt component: ")
 		return buildError
@@ -78,7 +78,7 @@ func runReciever(ctx context.Context, userid string, topicName string, sc stan.C
 	}
 
 	// make sure all changes persisted to disk
-	err = wb.Flush()
+	// err = wb.Flush()
 
 	return err
 
