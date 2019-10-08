@@ -119,4 +119,18 @@ required_paths = ["Lesson.learning_area", "Lesson.lesson_id"]
 n3id = "id"
 links = ["Lesson.learning_area", "Lesson.subject", "Lesson.stage"]
 unique = ["Lesson.subject","Lesson.stage"]
+
+[[classifier]]
+data_model = "LessonSequence"
+required_paths = ["thearea", "thecourse", "thesubject", "thestage"]
+n3id = "lessonId"
+links = ["thearea", "thesubject", "thestage"]
+unique = ["thesubject","thestage"]
+
+[[classifier]]
+data_model = "LessonSchedule"
+required_paths = ["thecolor", "thecourse"]
+n3id = "scheduleId"
+links = ["userId"]
+
 `
