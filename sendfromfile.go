@@ -7,7 +7,6 @@ import (
 	"net/http"
 	"os"
 	"time"
-
 	"github.com/pkg/errors"
 )
 
@@ -34,8 +33,12 @@ func (crdtm *CRDTManager) SendFromFile(fname string) error {
 //
 func (crdtm *CRDTManager) SendFromHTTPRequest(r *http.Request) error {
 
-	return crdtm.SendFromReader(r.Body)
+	err := crdtm.SendFromReader(r.Body)
+	if err != nil {
+		return errors.Wrap(err, "(sendfromfile.SendFromHTTPRequest) unknown:")
+	}
 
+	return err;
 }
 
 //
@@ -47,7 +50,7 @@ func (crdtm *CRDTManager) SendFromReader(r io.Reader) error {
 	// err := runSendWithReader(crdtm.sdb, crdtm.swb, crdtm.UserId, crdtm.TopicName, crdtm.sc, r, crdtm.AuditLevel)
 	err := runSendWithReader(crdtm.sdb, crdtm.UserId, crdtm.TopicName, crdtm.sc, r, crdtm.AuditLevel)
 	if err != nil {
-		return errors.Wrap(err, "error ingesting data from reader:")
+		return errors.Wrap(err, "(sendfromfile.SendFromReader) error ingesting data from reader:")
 	}
 	// ensure the writer finishes
 	// crdtm.swb.Flush()
