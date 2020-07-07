@@ -4,7 +4,6 @@ package crdt
 
 import (
 	"context"
-	"log"
 	"time"
 
 	stan "github.com/nats-io/stan.go"
@@ -50,7 +49,7 @@ func streamCRDTSource(ctx context.Context, userid string, topicName string, sc s
 				out <- data
 			case <-time.After(2 * time.Second):
 				// close the subscription if no activity
-				log.Println("...no more messages available...")
+				// log.Println("...no more messages available...")
 				return
 			case <-ctx.Done(): // listen for pipeline shutdown
 				return

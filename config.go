@@ -133,4 +133,15 @@ required_paths = ["thecolor", "thecourse"]
 n3id = "scheduleId"
 links = ["userId"]
 
+[[classifier]]
+data_model = "OtfProviderItem"
+required_paths = ["providerNodeId", "externalReference"]
+n3id = "providerNodeId"
+links = ["externalReference"]
+
+[[classifier]]
+data_model = "OtfNLPLink"
+required_paths = ["nlpNodeId", "nlpReference"]
+n3id = "nlpNodeId"
+links = ["linkReference"]
 `
