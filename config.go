@@ -144,4 +144,10 @@ data_model = "OtfNLPLink"
 required_paths = ["nlpNodeId", "nlpReference"]
 n3id = "nlpNodeId"
 links = ["linkReference"]
+
+[[classifier]]
+data_model = "OtfScale"
+required_paths = ["progressionLevel", "partiallyAchieved"]
+n3id = "scaleItemId"
+links = ["progressionLevel"]
 `
