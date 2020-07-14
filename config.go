@@ -150,4 +150,10 @@ data_model = "OtfScale"
 required_paths = ["progressionLevel", "partiallyAchieved"]
 n3id = "scaleItemId"
 links = ["progressionLevel"]
+
+[[classifier]]
+data_model = "OtfMappedScore"
+required_paths = ["scoreId", "mappedScore"]
+n3id = "scoreId"
+links = ["assessment"]
 `
