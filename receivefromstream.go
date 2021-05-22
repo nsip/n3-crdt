@@ -15,7 +15,7 @@ func (crdtm *CRDTManager) StartReceiver() (<-chan []byte, error) {
 
 	ctx, cancelFunc := context.WithCancel(context.Background())
 	crdtm.ReceiverCancelFunc = cancelFunc
-	iterator := make(chan []byte, 0)
+	iterator := make(chan []byte)
 
 	go func() {
 		defer close(iterator)

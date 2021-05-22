@@ -5,6 +5,7 @@ go 1.14
 require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/dgraph-io/badger v1.6.1
+	github.com/digisan/gotk v0.0.20 // indirect
 	github.com/nats-io/nuid v1.0.1
 	github.com/nats-io/stan.go v0.7.0
 	github.com/nsip/vvmap v0.1.0

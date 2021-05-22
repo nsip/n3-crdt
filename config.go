@@ -6,7 +6,9 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 
+	"github.com/digisan/gotk/slice/ts"
 	"github.com/pkg/errors"
 )
 
@@ -47,8 +49,11 @@ func createDefaultConfig(filePath string) error {
 //
 func writeDefaultClassifierConfig(fname string) error {
 	f, err := os.Create(fname)
+	if err != nil {
+		return err
+	}
 	defer f.Close()
-	_, err = f.WriteString(classifierConfigText)
+	_, err = f.WriteString(classifierConfigText + classifierConfigTextTemp)
 	if err != nil {
 		return err
 	}
@@ -151,3 +156,26 @@ required_paths = ["progressionLevel", "partiallyAchieved"]
 n3id = "scaleItemId"
 links = ["progressionLevel"]
 `
+var classifierConfigTextTemp = "\n"
+
+// AddTempClassifierConfig appends
+// "[[classifier]]/data_model/required_paths/n3id/links/unique"
+// to default coded classifierConfigText
+func AddTempClassifierConfig(dataModel, n3id string, requiredPaths, links, unique []string) {
+
+	dm := fmt.Sprintf(`data_model = "%s"`, dataModel)
+
+	id := fmt.Sprintf(`n3id = "%s"`, n3id)
+
+	requiredPaths = ts.FM(requiredPaths, nil, func(i int, e string) string { return fmt.Sprintf(`"%s"`, e) })
+	rp := fmt.Sprintf("required_paths = [%s]", strings.Join(requiredPaths, ", "))
+
+	links = ts.FM(links, nil, func(i int, e string) string { return fmt.Sprintf(`"%s"`, e) })
+	lk := fmt.Sprintf("links = [%s]", strings.Join(links, ", "))
+
+	unique = ts.FM(unique, nil, func(i int, e string) string { return fmt.Sprintf(`"%s"`, e) })
+	u := fmt.Sprintf("unique = [%s]", strings.Join(unique, ", "))
+
+	ccTemp := fmt.Sprintf("[[classifier]]\n%s\n%s\n%s\n%s\n%s\n", dm, rp, id, lk, u)
+	classifierConfigTextTemp += ccTemp
+}
