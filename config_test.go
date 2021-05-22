@@ -32,8 +32,12 @@ func TestAddTempClassifierConfig(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			AddTempClassifierConfig(tt.args.dataModel, tt.args.n3id, tt.args.requiredPaths, tt.args.links, tt.args.unique)
+			temp := AddTempClassifierConfig(tt.args.dataModel, tt.args.n3id, tt.args.requiredPaths, tt.args.links, tt.args.unique)
+			fmt.Println(temp)
+			fmt.Println("----------------------")
 			fmt.Println(classifierConfigTextTemp)
 		})
 	}
+	fmt.Println("----------------------")
+	fmt.Println(GetCurClassifierConfig())
 }

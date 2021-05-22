@@ -160,8 +160,9 @@ var classifierConfigTextTemp = "\n"
 
 // AddTempClassifierConfig appends
 // "[[classifier]]/data_model/required_paths/n3id/links/unique"
-// to default coded classifierConfigText
-func AddTempClassifierConfig(dataModel, n3id string, requiredPaths, links, unique []string) {
+// to default coded classifierConfigText.
+// return temp config text
+func AddTempClassifierConfig(dataModel, n3id string, requiredPaths, links, unique []string) string {
 
 	dm := fmt.Sprintf(`data_model = "%s"`, dataModel)
 
@@ -178,4 +179,11 @@ func AddTempClassifierConfig(dataModel, n3id string, requiredPaths, links, uniqu
 
 	ccTemp := fmt.Sprintf("[[classifier]]\n%s\n%s\n%s\n%s\n%s\n", dm, rp, id, lk, u)
 	classifierConfigTextTemp += ccTemp
+
+	return ccTemp
+}
+
+// GetCurClassifierConfig :
+func GetCurClassifierConfig() string {
+	return classifierConfigText + classifierConfigTextTemp
 }
