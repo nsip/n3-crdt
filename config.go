@@ -164,6 +164,11 @@ var classifierConfigTextTemp = "\n"
 // return temp config text
 func AddTempClassifierConfig(dataModel, n3id string, requiredPaths, links, unique []string) string {
 
+	// if dataModel is empty, do nothing
+	if dataModel == "" {
+		return ""
+	}
+
 	dm := fmt.Sprintf(`data_model = "%s"`, dataModel)
 
 	id := fmt.Sprintf(`n3id = "%s"`, n3id)
@@ -183,12 +188,12 @@ func AddTempClassifierConfig(dataModel, n3id string, requiredPaths, links, uniqu
 	return ccTemp
 }
 
-// GetCurClassifierConfig :
-func GetCurClassifierConfig() string {
-	return classifierConfigText + classifierConfigTextTemp
-}
-
 // ClearTempClassifierConfig :
 func ClearTempClassifierConfig() {
 	classifierConfigTextTemp = ""
+}
+
+// GetCurClassifierConfig :
+func GetCurClassifierConfig() string {
+	return classifierConfigText + classifierConfigTextTemp
 }
