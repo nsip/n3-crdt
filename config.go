@@ -187,3 +187,8 @@ func AddTempClassifierConfig(dataModel, n3id string, requiredPaths, links, uniqu
 func GetCurClassifierConfig() string {
 	return classifierConfigText + classifierConfigTextTemp
 }
+
+// ClearTempClassifierConfig :
+func ClearTempClassifierConfig() {
+	classifierConfigTextTemp = ""
+}

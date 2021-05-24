@@ -97,6 +97,7 @@ func objectClassifier(ctx context.Context, userid string, topicName string, in <
 			// default if model isn't classified
 			if !classified {
 				dataModel = "JSON"
+				n3id = nuid.Next()
 			}
 
 			// set the object type

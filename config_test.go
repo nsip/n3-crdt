@@ -40,4 +40,7 @@ func TestAddTempClassifierConfig(t *testing.T) {
 	}
 	fmt.Println("----------------------")
 	fmt.Println(GetCurClassifierConfig())
+	fmt.Println("----------------------")
+	ClearTempClassifierConfig()
+	fmt.Println(GetCurClassifierConfig())
 }
