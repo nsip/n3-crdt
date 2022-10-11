@@ -12,7 +12,7 @@ require (
 	github.com/nsip/vvmap v0.1.0
 	github.com/pkg/errors v0.9.1
 	github.com/tidwall/buntdb v1.1.2
-	github.com/tidwall/gjson v1.6.5
+	github.com/tidwall/gjson v1.9.3
 	github.com/tidwall/sjson v1.1.1
 	google.golang.org/protobuf v1.27.1 // indirect
 )
